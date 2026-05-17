@@ -10,23 +10,22 @@
     "subtitle": "Estudio de Desarrollo Web y Automatización",
     "description": "Creamos interfaces web modernas y automatizaciones inteligentes para optimizar tu negocio.",
     "button1": "Ver proyectos",
-    "button2": "Contactame"
+    "button2": "Contáctanos" 
   },
 
   "projects": {
     "title": "Proyectos",
     "description": "Sistemas de alta complejidad técnica y arquitecturas escalables desarrolladas por nuestro estudio.",
-    "button": "Mas proyectos",
+    "button": "Más proyectos",
 
     "Aura": {
       "name": "Aura Scheduler Sim",
       "description": "Simulador avanzado de sistemas operativos enfocado en la gestión, priorización y despacho de tareas en tiempo real. Desarrollado con renderizado gráfico dinámico para analizar el comportamiento y rendimiento de un Scheduler real.",
       "using": [
-        { "tech": "node.js", "image": "/assets/nodeJs.svg" },
-        { "tech": "typescript", "image": "/assets/typescript.svg" },
-        { "tech": "react", "image": "/assets/react.svg" },
-        { "tech": "tailwindcss", "image": "/assets/tailwindcss.svg" },
-        { "tech": "Esbuild", "image": "/assets/esbuild.svg" }
+        { "tech": "Node.js", "image": "/assets/nodeJs.svg" },
+        { "tech": "TypeScript", "image": "/assets/typescript.svg" },
+        { "tech": "React", "image": "/assets/react.svg" },
+        { "tech": "Tailwind CSS", "image": "/assets/tailwindcss.svg" }
       ],
       "link": "https://github.com/StubbornRuby763/aura"
     },
@@ -36,12 +35,8 @@
       "using": [
         { "tech": "Node.js", "image": "/assets/nodeJs.svg" },
         { "tech": "TypeScript", "image": "/assets/typescript.svg" },
-        { "tech": "Express", "image": "/assets/express.svg" },
-        { "tech": "Prisma ORM", "image": "/assets/prisma.svg" },
         { "tech": "React", "image": "/assets/react.svg" },
-        { "tech": "Tailwind CSS", "image": "/assets/tailwindcss.svg" },
-        { "tech": "Esbuild", "image": "/assets/esbuild.svg" },
-        { "tech": "Nodemon", "image": "/assets/nodemon.svg" }
+        { "tech": "Tailwind CSS", "image": "/assets/tailwindcss.svg" }
       ],
       "link": "https://github.com/StubbornRuby763/Nexus-Store"
     }
@@ -55,21 +50,17 @@
       { "tech": "TypeScript", "image": "/assets/typescript.svg" }    
     ],
     "backend": [
-      { "tech": "Node.js", "image": "/assets/nodeJs.svg" },
-      { "tech": "Express", "image": "/assets/express.svg" }
+      { "tech": "Node.js", "image": "/assets/nodeJs.svg" }
     ],
     "database": [
-      { "tech": "Prisma ORM", "image": "/assets/prisma.svg" },
       { "tech": "PostgreSQL", "image": "/assets/postgresql.svg" }
     ],
     "stylingUI": [
       { "tech": "Tailwind CSS", "image": "/assets/tailwindcss.svg" }
     ],
     "workflowUtils": [
-      { "tech": "Esbuild", "image": "/assets/esbuild.svg" },
       { "tech": "Vite", "image": "/assets/vite.svg" },
-      { "tech": "Git", "image": "/assets/github.svg" },
-      { "tech": "Nodemon", "image": "/assets/nodemon.svg" }
+      { "tech": "Git", "image": "/assets/github.svg" }
     ]
   },
   "about_Us": {

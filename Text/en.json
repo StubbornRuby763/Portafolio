@@ -10,7 +10,7 @@
     "subtitle": "Web Development and Automation Studio",
     "description": "We create modern web interfaces and intelligent automations to optimize your business.",
     "button1": "View projects",
-    "button2": "Contact me"
+    "button2": "Contact us"
   },
 
   "projects": {
@@ -25,8 +25,7 @@
         { "tech": "node.js", "image": "/assets/nodeJs.svg" },
         { "tech": "typescript", "image": "/assets/typescript.svg" },
         { "tech": "react", "image": "/assets/react.svg" },
-        { "tech": "tailwindcss", "image": "/assets/tailwindcss.svg" },
-        { "tech": "Esbuild", "image": "/assets/esbuild.svg" }
+        { "tech": "tailwindcss", "image": "/assets/tailwindcss.svg" }
       ],
       "link": "https://github.com/StubbornRuby763/aura"
     },
@@ -36,12 +35,8 @@
       "using": [
         { "tech": "Node.js", "image": "/assets/nodeJs.svg" },
         { "tech": "TypeScript", "image": "/assets/typescript.svg" },
-        { "tech": "Express", "image": "/assets/express.svg" },
-        { "tech": "Prisma ORM", "image": "/assets/prisma.svg" },
         { "tech": "React", "image": "/assets/react.svg" },
-        { "tech": "Tailwind CSS", "image": "/assets/tailwindcss.svg" },
-        { "tech": "Esbuild", "image": "/assets/esbuild.svg" },
-        { "tech": "Nodemon", "image": "/assets/nodemon.svg" }
+        { "tech": "Tailwind CSS", "image": "/assets/tailwindcss.svg" }
       ],
       "link": "https://github.com/StubbornRuby763/Nexus-Store"
     }
@@ -59,17 +54,14 @@
       { "tech": "Express", "image": "/assets/express.svg" }
     ],
     "database": [
-      { "tech": "Prisma ORM", "image": "/assets/prisma.svg" },
       { "tech": "PostgreSQL", "image": "/assets/postgresql.svg" }
     ],
     "stylingUI": [
       { "tech": "Tailwind CSS", "image": "/assets/tailwindcss.svg" }
     ],
     "workflowUtils": [
-      { "tech": "Esbuild", "image": "/assets/esbuild.svg" },
       { "tech": "Vite", "image": "/assets/vite.svg" },
-      { "tech": "Git", "image": "/assets/github.svg" },
-      { "tech": "Nodemon", "image": "/assets/nodemon.svg" }
+      { "tech": "Git", "image": "/assets/github.svg" }
     ]
   },
   "about_Us": {

@@ -2,10 +2,10 @@ import { useLanguage } from "../context/LanguageContext";
 import { Text } from "./text";
 
 export const Projects = () => {
-  const { text, locale } = useLanguage();
+  const { text, locale, locals } = useLanguage();
   
   const { title, description, button, ...allProjects } = text.projects;
-  const githubUrl = import.meta.env.VITE_GITHUB || "https://github.com"; 
+  const githubUrl =  locals.github || "https://github.com"; 
 
   return (
     <div className="flex flex-col items-center w-full px-4">
@@ -21,11 +21,9 @@ export const Projects = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-6xl mx-auto mb-12">
-          {/* 1. Forzamos a TypeScript a saber que los keys pertenecen a allProjects */}
           {(Object.keys(allProjects) as Array<keyof typeof allProjects>)
             .filter((key) => typeof allProjects[key] === "object" && allProjects[key] !== null)
             .map((key) => {
-              // 2. Ahora TypeScript sabe exactamente qué estructura tiene cada 'project'
               const project = allProjects[key];
               return (
                 <a 
@@ -48,7 +46,6 @@ export const Projects = () => {
                   <div>
                     <hr className="border-slate-100 mb-4" />
                     <div className="flex flex-wrap gap-3">
-                      {/* 3. Al saber la estructura, item e index se tipan automáticamente */}
                       {project.using?.map((item, index) => (
                         <div 
                           key={index} 

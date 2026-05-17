@@ -2,12 +2,12 @@ import { useLanguage } from "../context/LanguageContext";
 import { Text } from "./text";
 
 export const Contact = () => {
-  const { text, locale } = useLanguage(); 
+  const { text, locale, locals } = useLanguage(); 
 
   const contactText = text?.Contact;
-  const gmail = import.meta.env.VITE_GMAIL;
-  const insta = import.meta.env.VITE_INSTA;
-  const discord = import.meta.env.VITE_DISCORD;
+  const gmail = locals.gmail;
+  const insta = locals.insta;
+  const discord = locals.discord;
 
   const SendGmail = () => {
     if (!gmail) return;
@@ -53,7 +53,7 @@ export const Contact = () => {
             className="flex items-center gap-3 bg-slate-900 border border-transparent px-5 py-3 rounded-xl shadow-sm hover:bg-slate-800 transition-all duration-300 group relative active:scale-95"
           >
             <img src="/assets/gmail.svg" alt="Gmail" className="w-6 h-6 invert group-hover:invert-0 transition-all duration-300" />
-            <span className="text-sm font-semibold text-white">{gmail}</span>
+            <span className="text-sm font-semibold text-white">Gmail</span>
           </button>
         </div>
 
