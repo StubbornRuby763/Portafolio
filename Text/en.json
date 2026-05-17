@@ -1,0 +1,82 @@
+{
+  "topBar": {
+    "Home": "Home",
+    "Projects": "Projects",
+    "Contact": "Contact"
+  },
+
+  "home": {
+    "title": "Hi, we are Lawn Studios",
+    "subtitle": "Web Development and Automation Studio",
+    "description": "We create modern web interfaces and intelligent automations to optimize your business.",
+    "button1": "View projects",
+    "button2": "Contact me"
+  },
+
+  "projects": {
+    "title": "Projects",
+    "description": "Highly complex technical systems and scalable architectures developed by our studio.",
+    "button": "More projects",
+    
+    "Aura": {
+      "name": "Aura Scheduler Sim",
+      "description": "Advanced operating systems simulator focused on real-time task management, prioritization, and dispatching. Developed with dynamic graphical rendering to analyze the behavior and performance of a real Scheduler.",
+      "using": [
+        { "tech": "node.js", "image": "/assets/nodeJs.svg" },
+        { "tech": "typescript", "image": "/assets/typescript.svg" },
+        { "tech": "react", "image": "/assets/react.svg" },
+        { "tech": "tailwindcss", "image": "/assets/tailwindcss.svg" },
+        { "tech": "Esbuild", "image": "/assets/esbuild.svg" }
+      ],
+      "link": "https://github.com/StubbornRuby763/aura"
+    },
+    "NexusStore": {
+      "name": "NexusStore & Pixel Bank Ecosystem",
+      "description": "Distributed ecosystem built under a microservices architecture. It simulates the full workflow of an e-commerce platform connected to an independent banking gateway, implementing OAuth2/JWT authentication, secure API communication, and relational data persistence.",
+      "using": [
+        { "tech": "Node.js", "image": "/assets/nodeJs.svg" },
+        { "tech": "TypeScript", "image": "/assets/typescript.svg" },
+        { "tech": "Express", "image": "/assets/express.svg" },
+        { "tech": "Prisma ORM", "image": "/assets/prisma.svg" },
+        { "tech": "React", "image": "/assets/react.svg" },
+        { "tech": "Tailwind CSS", "image": "/assets/tailwindcss.svg" },
+        { "tech": "Esbuild", "image": "/assets/esbuild.svg" },
+        { "tech": "Nodemon", "image": "/assets/nodemon.svg" }
+      ],
+      "link": "https://github.com/StubbornRuby763/Nexus-Store"
+    }
+  },
+
+  "skills": {
+    "title": "Technical Skills",
+    "description": "Technologies and tools we master to build robust solutions.",
+    "frontend": [
+      { "tech": "React", "image": "/assets/react.svg" },
+      { "tech": "TypeScript", "image": "/assets/typescript.svg" }    
+    ],
+    "backend": [
+      { "tech": "Node.js", "image": "/assets/nodeJs.svg" },
+      { "tech": "Express", "image": "/assets/express.svg" }
+    ],
+    "database": [
+      { "tech": "Prisma ORM", "image": "/assets/prisma.svg" },
+      { "tech": "PostgreSQL", "image": "/assets/postgresql.svg" }
+    ],
+    "stylingUI": [
+      { "tech": "Tailwind CSS", "image": "/assets/tailwindcss.svg" }
+    ],
+    "workflowUtils": [
+      { "tech": "Esbuild", "image": "/assets/esbuild.svg" },
+      { "tech": "Vite", "image": "/assets/vite.svg" },
+      { "tech": "Git", "image": "/assets/github.svg" },
+      { "tech": "Nodemon", "image": "/assets/nodemon.svg" }
+    ]
+  },
+  "about_Us": {
+    "title": "About us",
+    "description": "We are a full-stack team currently focused on web development and task automation, creating innovative and efficient solutions to optimize your business.",
+    "tagline": "Smart code, modern interfaces."
+  },
+  "Contact": "Have an idea in mind? Let's make it happen.",
+  "foot": "Lawn Studios © 2026 | Full Stack Development & Automation"
+}
